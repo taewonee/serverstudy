@@ -1,0 +1,21 @@
+#Question{
+    width: 100vw;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+#desc{
+    width: 100vw;
+    color: black;
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}

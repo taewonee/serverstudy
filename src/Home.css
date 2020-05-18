@@ -1,0 +1,64 @@
+.Home {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Home-header {
+  background-color: #282c34;
+  background-image: url('images/ping2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.demo {
+  margin-top: 3%;
+  color: #ffffff;
+  text-shadow: 0 0 5px #000;
+}
+#Texts {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#StartButton {
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: 2px solid #327d58;
+  background-color: rgba(255,255,255,0);
+  font-size: medium;
+  color: white;
+  padding: 5px;
+}
+
+  
+
+
+#btn button:hover{
+  color:balck;
+  background-color: #327d58;
+}

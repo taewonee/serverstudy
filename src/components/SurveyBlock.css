@@ -1,0 +1,20 @@
+.buttonimg{
+    color: black;
+    width: "100px";
+    margin: 5px;
+    display:inline-block;
+}
+
+
+.buttonimg:hover {
+    background-color: rgba(135, 206, 235, 0.4);
+    display:inline-block;
+}
+
+
+@media (max-width: 400px) {
+    .buttonimg{
+    width: flex;
+    }
+}
+
